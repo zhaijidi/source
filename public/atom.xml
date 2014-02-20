@@ -4,7 +4,7 @@
   <subtitle><![CDATA[技术人生]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://zhaijd.github.io/"/>
-  <updated>2014-02-20T16:45:49.638Z</updated>
+  <updated>2014-02-20T17:47:20.469Z</updated>
   <id>http://zhaijd.github.io/</id>
   
   <author>
@@ -13,6 +13,32 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[将hexo bloger的源码托管到GitHub]]></title>
+    <link href="http://zhaijd.github.io/2014/02/21/%E6%89%98%E7%AE%A1bloger%E6%BA%90%E7%A0%81/"/>
+    <id>http://zhaijd.github.io/2014/02/21/托管bloger源码/</id>
+    <published>2014-02-20T17:34:00.000Z</published>
+    <updated>2014-02-20T17:47:07.000Z</updated>
+    <content type="html"><![CDATA[<p>hexo 生成的静态文件托管的github 的文章有很多文章介绍，但是我希望我将整个blog的源码都托管到github上面，经过自己的尝试，记录如下：</p>
+<ul>
+<li>创建一个新的代码仓库。</li>
+<li>在<code>hexo bloger</code> 根目录，输入 <code>git init</code></li>
+<li><p>使用如下命令：</p>
+<p>  git remote add origin <a href="https://[地址]/zhaijidi/source.git" target="_blank">https://[地址]/zhaijidi/source.git</a>
+  git push -u source master</p>
+</li>
+</ul>
+]]></content>
+    
+    
+      <category term="githuh" scheme="http://zhaijd.github.io/tags/githuh/"/>
+    
+      <category term="hexo" scheme="http://zhaijd.github.io/tags/hexo/"/>
+    
+      <category term="技术杂项" scheme="http://zhaijd.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E9%A1%B9/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[开篇辟地纪念]]></title>
@@ -139,7 +165,7 @@ Like, seriously, a <em>LOT</em> of text</strong></p>
 <p>Right angle brackets &gt; are used for block quotes.</p>
 </blockquote>
 <h4 id="links-and-email">Links and Email</h4>
-<p>An email <a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x65;&#120;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#64;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;">&#x65;&#120;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#64;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;</a> link.</p>
+<p>An email <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x65;&#120;&#x61;&#109;&#112;&#108;&#x65;&#x40;&#x65;&#x78;&#97;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;">&#x65;&#120;&#x61;&#109;&#112;&#108;&#x65;&#x40;&#x65;&#x78;&#97;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;</a> link.</p>
 <p>Simple inline link <a href="http://chenluois.com" target="_blank">http://chenluois.com</a>, another inline link <a href="http://smallerapp.com" target="_blank">Smaller</a>, one more inline link with title <a href="http://resizesafari.com" title="a Safari extension" target="_blank">Resize</a>.</p>
 <p>A <a href="http://mouapp.com" title="Markdown editor on Mac OS X" target="_blank">reference style</a> link. Input id, then anywhere in the doc, define the link with corresponding id:</p>
 <p>Titles ( or called tool tips ) in the links are optional.</p>

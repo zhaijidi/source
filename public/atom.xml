@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[宅基地]]></title>
+  <subtitle><![CDATA[技术人生]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://zhaijd.github.io/"/>
+  <updated>2014-02-20T16:45:49.638Z</updated>
+  <id>http://zhaijd.github.io/</id>
+  
+  <author>
+    <name><![CDATA[Winters]]></name>
+    <email><![CDATA[suyuan19@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[开篇辟地纪念]]></title>
+    <link href="http://zhaijd.github.io/2014/02/20/first/"/>
+    <id>http://zhaijd.github.io/2014/02/20/first/</id>
+    <published>2014-02-20T08:48:40.000Z</published>
+    <updated>2014-02-21T04:42:00.000Z</updated>
+    <content type="html"><![CDATA[<p>使用<code>MarkDown</code>在本地写自己的<code>Blogger</code>，并且托管到github与大家分享，貌似是一件<code>so cool</code>的事情，我一直也想体验下，按照网上的说法大部分都是基于Ruby的，之前折腾过，首先没有想深入的学习Ruby，其实之前部署环境的时候吃过苦头，所以坚决不选用Ruby的东东，庆幸的是备选方案还是挺多的，对比了几番后，最终选择基于<code>nodejs</code> 环境搭建的框架<a href="http://zespia.tw/hexo" target="_blank"><code>Hexo</code></a> 。
+<a id="more"></a></p>
+<p>有三点原因：</p>
+<ul>
+<li>支持MarkDown 语法，可以托管到GitHub，个是硬性指标。</li>
+<li>基于Nodejs环境，一直想深入的学习Nodejs，正好可以练手。</li>
+<li>傻瓜式的安装部署，很方便就在本地搞定了。</li>
+</ul>
+<p>经过一番努力，各种的未知问题的折腾，终于搞定，看起来也像个样子，特发此文纪念一番。</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>使用<code>MarkDown</code>在本地写自己的<code>Blogger</code>，并且托管到github与大家分享，貌似是一件<code>so cool</code>的事情，我一直也想体验下，按照网上的说法大部分都是基于Ruby的，之前折腾过，首先没有想深入的学习Ruby，其实之前部署环境的时候吃过苦头，所以坚决不选用Ruby的东东，庆幸的是备选方案还是挺多的，对比了几番后，最终选择基于<code>nodejs</code> 环境搭建的框架<a href="http://zespia.tw/hexo" target="_blank"><code>Hexo</code></a> 。
+]]></summary>
+    
+      <category term="hexo" scheme="http://zhaijd.github.io/tags/hexo/"/>
+    
+      <category term="nodejs" scheme="http://zhaijd.github.io/tags/nodejs/"/>
+    
+      <category term="markdown" scheme="http://zhaijd.github.io/tags/markdown/"/>
+    
+      <category term="mou" scheme="http://zhaijd.github.io/tags/mou/"/>
+    
+      <category term="生活琐事" scheme="http://zhaijd.github.io/categories/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Mou 使用帮助]]></title>
+    <link href="http://zhaijd.github.io/2014/02/20/mou/"/>
+    <id>http://zhaijd.github.io/2014/02/20/mou/</id>
+    <published>2014-02-19T20:37:00.000Z</published>
+    <updated>2014-02-20T16:45:19.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="mou">Mou</h1>
+<p><img src="http://mouapp.com/Mou_128.png" alt="Mou icon"></p>
+<h3 id="shortcuts-">Shortcuts 快捷键</h3>
+<h4 id="view">View</h4>
+<ul>
+<li>Toggle live preview（<code>显示或隐藏预览</code>）: Shift + Cmd + I</li>
+<li>Toggle Words Counter（<code>显示字符数</code>）: Shift + Cmd + W</li>
+<li>Toggle Transparent（<code>窗口透明</code>）: Shift + Cmd + T</li>
+<li>Toggle Floating: Shift + Cmd + F</li>
+<li>Left/Right = 1/1（<code>编辑和预览窗口分屏比例</code>）: Cmd + 0</li>
+<li>Left/Right = 3/1（<code>编辑和预览窗口分屏比例</code>）: Cmd + +</li>
+<li>Left/Right = 1/3（<code>编辑和预览窗口分屏比例</code>）: Cmd + -</li>
+<li>Toggle Writing orientation（<code>文字方向</code>）: Cmd + L</li>
+<li>Toggle fullscreen（<code>全屏</code>）: Control + Cmd + F</li>
+</ul>
+<h4 id="actions">Actions</h4>
+<ul>
+<li>Copy HTML（<code>拷贝HTML</code>）: Option + Cmd + C</li>
+<li>Strong（<strong><em><code>加粗</code></em></strong>）: Select text, Cmd + B</li>
+<li>Emphasize（<em><code>斜体</code></em>）: Select text, Cmd + I</li>
+<li>Inline Code（<code>着色</code>）: Select text, Cmd + K</li>
+<li>Strikethrough（<del><code>删除线</code></del>）: Select text, Cmd + U</li>
+<li>Link（<code>插入超链接</code>）: Select text, Control + Shift + L</li>
+<li>Image（<code>插入图片</code>）: Select text, Control + Shift + I</li>
+<li>Select Word（<code>选中当前字符</code>）: Control + Option + W</li>
+<li>Select Line（<code>选中当前行</code>）: Shift + Cmd + L</li>
+<li>Select All（<code>全选</code>）: Cmd + A</li>
+<li>Deselect All（<code>取消选中</code>）: Cmd + D</li>
+<li>Convert to Uppercase（<code>选中字符变大写</code>）: Select text, Control + U</li>
+<li>Convert to Lowercase（<code>选中字符变小写</code>）: Select text, Control + Shift + U</li>
+<li>Convert To Titlecase: Select Text, Control + Option + U</li>
+<li>Convert to List（<code>选中行变成list</code>）: Select lines, Control + L</li>
+<li>Convert to Blockquote（<code>选中行变成引用</code>）: Select lines, Control + Q</li>
+<li>Convert to H1（<code>变为H1</code>）: Cmd + 1</li>
+<li>Convert to H2（<code>变为H2</code>）: Cmd + 2</li>
+<li>Convert to H3（<code>变为H3</code>）: Cmd + 3</li>
+<li>Convert to H4（<code>变为H4</code>）: Cmd + 4</li>
+<li>Convert to H5（<code>变为H5</code>）: Cmd + 5</li>
+<li>Convert to H6（<code>变为H6</code>）: Cmd + 6</li>
+<li>Convert Spaces to Tabs(<code>插入tab</code>): Control + [</li>
+<li>Convert Tabs to Spaces（<code>删除tab</code>）: Control + ]</li>
+<li>Insert Current Date（<code>插入当前日期</code>）: Control + Shift + 1</li>
+<li>Insert Current Time（<code>插入当前时间</code>）: Control + Shift + 2</li>
+<li>Insert entity &lt;（<code>插入&amp;lt;</code>）: Control + Shift + ,</li>
+<li>Insert entity &gt;（<code>插入&amp;gt;</code>）: Control + Shift + .</li>
+<li>Insert entity &amp;（<code>插入&amp;amp;</code>）: Control + Shift + 7</li>
+<li>Insert entity Space: Control + Shift + Space</li>
+<li>Insert Scriptogr.am Header（<code>插入Scriptogr.am文件头信息</code>）: Control + Shift + G</li>
+<li>Shift Line Left（<code>选中行右移</code>）: Select lines, Cmd + [</li>
+<li>Shift Line Right（<code>选中行左移</code>）: Select lines, Cmd + ]</li>
+<li>New Line（<code>插入新行</code>）: Cmd + Return</li>
+<li>Comment（<code>插入注释</code>）: Cmd + /</li>
+<li>Hard Linebreak（<code>插入换行符</code>）: Control + Return</li>
+</ul>
+<p><a id="more"></a></p>
+<h4 id="edit">Edit</h4>
+<ul>
+<li>Auto complete current word（<code>自动补全</code>）: Esc</li>
+<li>Find（<code>查找</code>）: Cmd + F</li>
+<li>Close find bar（<code>关闭查找</code>）: Esc</li>
+</ul>
+<h4 id="post">Post</h4>
+<ul>
+<li>Post on Scriptogr.am: Control + Shift + S</li>
+<li>Post on Tumblr: Control + Shift + T</li>
+</ul>
+<h4 id="export">Export</h4>
+<ul>
+<li>Export HTML（<code>导出HTML</code>）: Option + Cmd + E</li>
+<li>Export PDF（<code>导出PDF</code>）:  Option + Cmd + P</li>
+</ul>
+<h3 id="and-more-">And more?</h3>
+<p>Don&#39;t forget to check Preferences, lots of useful options are there.</p>
+<p>Follow <a href="http://twitter.com/chenluois" target="_blank">@chenluois</a> on Twitter for the latest news.</p>
+<p>For feedback, use the menu <code>Help</code> - <code>Send Feedback</code></p>
+<h2 id="overview">Overview</h2>
+<p><strong>Mou</strong>, the missing Markdown editor for <em>web developers</em>.</p>
+<h3 id="syntax">Syntax</h3>
+<h4 id="strong-and-emphasize">Strong and Emphasize</h4>
+<p><strong>strong</strong> or <strong>strong</strong> ( Cmd + B )</p>
+<p><em>emphasize</em> or <em>emphasize</em> ( Cmd + I )</p>
+<p><strong>Sometimes I want a lot of text to be bold.
+Like, seriously, a <em>LOT</em> of text</strong></p>
+<h4 id="blockquotes">Blockquotes</h4>
+<blockquote>
+<p>Right angle brackets &gt; are used for block quotes.</p>
+</blockquote>
+<h4 id="links-and-email">Links and Email</h4>
+<p>An email <a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x65;&#120;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#64;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;">&#x65;&#120;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#64;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;</a> link.</p>
+<p>Simple inline link <a href="http://chenluois.com" target="_blank">http://chenluois.com</a>, another inline link <a href="http://smallerapp.com" target="_blank">Smaller</a>, one more inline link with title <a href="http://resizesafari.com" title="a Safari extension" target="_blank">Resize</a>.</p>
+<p>A <a href="http://mouapp.com" title="Markdown editor on Mac OS X" target="_blank">reference style</a> link. Input id, then anywhere in the doc, define the link with corresponding id:</p>
+<p>Titles ( or called tool tips ) in the links are optional.</p>
+<h4 id="images">Images</h4>
+<p>An inline image <img src="http://smallerapp.com/favicon.ico" alt="Smaller icon" title="Title here">, title is optional.</p>
+<p>A <img src="http://resizesafari.com/favicon.ico" alt="Resize icon" title="Title"> reference style image.</p>
+<h4 id="inline-code-and-block-code">Inline code and Block code</h4>
+<p>Inline code are surround by <code>backtick</code> key. To create a block code:</p>
+<pre><code>Indent each line by at least 1 tab, or 4 spaces.
+var Mou = exactlyTheAppIwant; 
+</code></pre><h4 id="ordered-lists">Ordered Lists</h4>
+<p>Ordered lists are created using &quot;1.&quot; + Space:</p>
+<ol>
+<li>Ordered list item</li>
+<li>Ordered list item</li>
+<li>Ordered list item</li>
+</ol>
+<h4 id="unordered-lists">Unordered Lists</h4>
+<p>Unordered list are created using &quot;*&quot; + Space:</p>
+<ul>
+<li>Unordered list item</li>
+<li>Unordered list item</li>
+<li>Unordered list item </li>
+</ul>
+<p>Or using &quot;-&quot; + Space:</p>
+<ul>
+<li>Unordered list item</li>
+<li>Unordered list item</li>
+<li>Unordered list item</li>
+</ul>
+<h4 id="hard-linebreak">Hard Linebreak</h4>
+<p>End a line with two or more spaces will create a hard linebreak, called <code>&lt;br /&gt;</code> in HTML. ( Control + Return )<br>Above line ended with 2 spaces.</p>
+<h4 id="horizontal-rules">Horizontal Rules</h4>
+<p>Three or more asterisks or dashes:</p>
+<hr>
+<hr>
+<hr>
+<h4 id="headers">Headers</h4>
+<p>Setext-style:</p>
+<h1 id="this-is-h1">This is H1</h1>
+<h2 id="this-is-h2">This is H2</h2>
+<p>atx-style:</p>
+<h1 id="this-is-h1">This is H1</h1>
+<h2 id="this-is-h2">This is H2</h2>
+<h3 id="this-is-h3">This is H3</h3>
+<h4 id="this-is-h4">This is H4</h4>
+<h5 id="this-is-h5">This is H5</h5>
+<h6 id="this-is-h6">This is H6</h6>
+<h3 id="extra-syntax">Extra Syntax</h3>
+<h4 id="footnotes">Footnotes</h4>
+<p>Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:</p>
+<p>That&#39;s some text with a footnote.[^1]</p>
+<p>[^1]: And that&#39;s the footnote.</p>
+<h4 id="strikethrough">Strikethrough</h4>
+<p>Wrap with 2 tilde characters:</p>
+<p><del>Strikethrough</del></p>
+<h4 id="fenced-code-blocks">Fenced Code Blocks</h4>
+<p>Start with a line containing 3 or more backticks, and ends with the first line with the same number of backticks:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>Fenced code blocks are like Stardard Markdown’s regular code
+blocks, except <span class="keyword">that</span> they’re <span class="keyword">not</span> indented <span class="keyword">and</span> instead rely <span class="function_start"><span class="keyword">on</span></span>
+a start <span class="keyword">and</span> <span class="keyword">end</span> fence lines <span class="keyword">to</span> delimit <span class="keyword">the</span> code block.
+</pre></td></tr></table></figure>
+
+<h4 id="tables">Tables</h4>
+<p>A simple table looks like this:</p>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+<th>Third Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<p>If you wish, you can add a leading and tailing pipe to each line of the table:</p>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+<th>Third Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<p>Specify alignement for each column by adding colons to separator lines:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">First Header</th>
+<th style="text-align:center">Second Header</th>
+<th style="text-align:right">Third Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Left</td>
+<td style="text-align:center">Center</td>
+<td style="text-align:right">Right</td>
+</tr>
+<tr>
+<td style="text-align:left">Left</td>
+<td style="text-align:center">Center</td>
+<td style="text-align:right">Right</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shortcuts-">Shortcuts 快捷键</h3>
+<h4 id="view">View</h4>
+<ul>
+<li>Toggle live preview（<code>显示或隐藏预览</code>）: Shift + Cmd + I</li>
+<li>Toggle Words Counter（<code>显示字符数</code>）: Shift + Cmd + W</li>
+<li>Toggle Transparent（<code>窗口透明</code>）: Shift + Cmd + T</li>
+<li>Toggle Floating: Shift + Cmd + F</li>
+<li>Left/Right = 1/1（<code>编辑和预览窗口分屏比例</code>）: Cmd + 0</li>
+<li>Left/Right = 3/1（<code>编辑和预览窗口分屏比例</code>）: Cmd + +</li>
+<li>Left/Right = 1/3（<code>编辑和预览窗口分屏比例</code>）: Cmd + -</li>
+<li>Toggle Writing orientation（<code>文字方向</code>）: Cmd + L</li>
+<li>Toggle fullscreen（<code>全屏</code>）: Control + Cmd + F</li>
+</ul>
+<h4 id="actions">Actions</h4>
+<ul>
+<li>Copy HTML（<code>拷贝HTML</code>）: Option + Cmd + C</li>
+<li>Strong（<strong><em><code>加粗</code></em></strong>）: Select text, Cmd + B</li>
+<li>Emphasize（<em><code>斜体</code></em>）: Select text, Cmd + I</li>
+<li>Inline Code（<code>着色</code>）: Select text, Cmd + K</li>
+<li>Strikethrough（<del><code>删除线</code></del>）: Select text, Cmd + U</li>
+<li>Link（<code>插入超链接</code>）: Select text, Control + Shift + L</li>
+<li>Image（<code>插入图片</code>）: Select text, Control + Shift + I</li>
+<li>Select Word（<code>选中当前字符</code>）: Control + Option + W</li>
+<li>Select Line（<code>选中当前行</code>）: Shift + Cmd + L</li>
+<li>Select All（<code>全选</code>）: Cmd + A</li>
+<li>Deselect All（<code>取消选中</code>）: Cmd + D</li>
+<li>Convert to Uppercase（<code>选中字符变大写</code>）: Select text, Control + U</li>
+<li>Convert to Lowercase（<code>选中字符变小写</code>）: Select text, Control + Shift + U</li>
+<li>Convert To Titlecase: Select Text, Control + Option + U</li>
+<li>Convert to List（<code>选中行变成list</code>）: Select lines, Control + L</li>
+<li>Convert to Blockquote（<code>选中行变成引用</code>）: Select lines, Control + Q</li>
+<li>Convert to H1（<code>变为H1</code>）: Cmd + 1</li>
+<li>Convert to H2（<code>变为H2</code>）: Cmd + 2</li>
+<li>Convert to H3（<code>变为H3</code>）: Cmd + 3</li>
+<li>Convert to H4（<code>变为H4</code>）: Cmd + 4</li>
+<li>Convert to H5（<code>变为H5</code>）: Cmd + 5</li>
+<li>Convert to H6（<code>变为H6</code>）: Cmd + 6</li>
+<li>Convert Spaces to Tabs(<code>插入tab</code>): Control + [</li>
+<li>Convert Tabs to Spaces（<code>删除tab</code>）: Control + ]</li>
+<li>Insert Current Date（<code>插入当前日期</code>）: Control + Shift + 1</li>
+<li>Insert Current Time（<code>插入当前时间</code>）: Control + Shift + 2</li>
+<li>Insert entity &lt;（<code>插入&amp;lt;</code>）: Control + Shift + ,</li>
+<li>Insert entity &gt;（<code>插入&amp;gt;</code>）: Control + Shift + .</li>
+<li>Insert entity &amp;（<code>插入&amp;amp;</code>）: Control + Shift + 7</li>
+<li>Insert entity Space: Control + Shift + Space</li>
+<li>Insert Scriptogr.am Header（<code>插入Scriptogr.am文件头信息</code>）: Control + Shift + G</li>
+<li>Shift Line Left（<code>选中行右移</code>）: Select lines, Cmd + [</li>
+<li>Shift Line Right（<code>选中行左移</code>）: Select lines, Cmd + ]</li>
+<li>New Line（<code>插入新行</code>）: Cmd + Return</li>
+<li>Comment（<code>插入注释</code>）: Cmd + /</li>
+<li>Hard Linebreak（<code>插入换行符</code>）: Control + Return</li>
+</ul>
+<h4 id="edit">Edit</h4>
+<ul>
+<li>Auto complete current word（<code>自动补全</code>）: Esc</li>
+<li>Find（<code>查找</code>）: Cmd + F</li>
+<li>Close find bar（<code>关闭查找</code>）: Esc</li>
+</ul>
+<h4 id="post">Post</h4>
+<ul>
+<li>Post on Scriptogr.am: Control + Shift + S</li>
+<li>Post on Tumblr: Control + Shift + T</li>
+</ul>
+<h4 id="export">Export</h4>
+<ul>
+<li>Export HTML（<code>导出HTML</code>）: Option + Cmd + E</li>
+<li>Export PDF（<code>导出PDF</code>）:  Option + Cmd + P</li>
+</ul>
+<h3 id="and-more-">And more?</h3>
+<p>Don&#39;t forget to check Preferences, lots of useful options are there.</p>
+<p>Follow <a href="http://twitter.com/chenluois" target="_blank">@chenluois</a> on Twitter for the latest news.</p>
+<p>For feedback, use the menu <code>Help</code> - <code>Send Feedback</code></p>
+]]></content>
+    <summary type="html"><![CDATA[<h1 id="mou">Mou</h1>
+<p><img src="http://mouapp.com/Mou_128.png" alt="Mou icon"></p>
+<h3 id="shortcuts-">Shortcuts 快捷键</h3>
+<h4 id="view">View</h4>
+<ul>
+<li>Toggle live preview（<code>显示或隐藏预览</code>）: Shift + Cmd + I</li>
+<li>Toggle Words Counter（<code>显示字符数</code>）: Shift + Cmd + W</li>
+<li>Toggle Transparent（<code>窗口透明</code>）: Shift + Cmd + T</li>
+<li>Toggle Floating: Shift + Cmd + F</li>
+<li>Left/Right = 1/1（<code>编辑和预览窗口分屏比例</code>）: Cmd + 0</li>
+<li>Left/Right = 3/1（<code>编辑和预览窗口分屏比例</code>）: Cmd + +</li>
+<li>Left/Right = 1/3（<code>编辑和预览窗口分屏比例</code>）: Cmd + -</li>
+<li>Toggle Writing orientation（<code>文字方向</code>）: Cmd + L</li>
+<li>Toggle fullscreen（<code>全屏</code>）: Control + Cmd + F</li>
+</ul>
+<h4 id="actions">Actions</h4>
+<ul>
+<li>Copy HTML（<code>拷贝HTML</code>）: Option + Cmd + C</li>
+<li>Strong（<strong><em><code>加粗</code></em></strong>）: Select text, Cmd + B</li>
+<li>Emphasize（<em><code>斜体</code></em>）: Select text, Cmd + I</li>
+<li>Inline Code（<code>着色</code>）: Select text, Cmd + K</li>
+<li>Strikethrough（<del><code>删除线</code></del>）: Select text, Cmd + U</li>
+<li>Link（<code>插入超链接</code>）: Select text, Control + Shift + L</li>
+<li>Image（<code>插入图片</code>）: Select text, Control + Shift + I</li>
+<li>Select Word（<code>选中当前字符</code>）: Control + Option + W</li>
+<li>Select Line（<code>选中当前行</code>）: Shift + Cmd + L</li>
+<li>Select All（<code>全选</code>）: Cmd + A</li>
+<li>Deselect All（<code>取消选中</code>）: Cmd + D</li>
+<li>Convert to Uppercase（<code>选中字符变大写</code>）: Select text, Control + U</li>
+<li>Convert to Lowercase（<code>选中字符变小写</code>）: Select text, Control + Shift + U</li>
+<li>Convert To Titlecase: Select Text, Control + Option + U</li>
+<li>Convert to List（<code>选中行变成list</code>）: Select lines, Control + L</li>
+<li>Convert to Blockquote（<code>选中行变成引用</code>）: Select lines, Control + Q</li>
+<li>Convert to H1（<code>变为H1</code>）: Cmd + 1</li>
+<li>Convert to H2（<code>变为H2</code>）: Cmd + 2</li>
+<li>Convert to H3（<code>变为H3</code>）: Cmd + 3</li>
+<li>Convert to H4（<code>变为H4</code>）: Cmd + 4</li>
+<li>Convert to H5（<code>变为H5</code>）: Cmd + 5</li>
+<li>Convert to H6（<code>变为H6</code>）: Cmd + 6</li>
+<li>Convert Spaces to Tabs(<code>插入tab</code>): Control + [</li>
+<li>Convert Tabs to Spaces（<code>删除tab</code>）: Control + ]</li>
+<li>Insert Current Date（<code>插入当前日期</code>）: Control + Shift + 1</li>
+<li>Insert Current Time（<code>插入当前时间</code>）: Control + Shift + 2</li>
+<li>Insert entity &lt;（<code>插入&amp;lt;</code>）: Control + Shift + ,</li>
+<li>Insert entity &gt;（<code>插入&amp;gt;</code>）: Control + Shift + .</li>
+<li>Insert entity &amp;（<code>插入&amp;amp;</code>）: Control + Shift + 7</li>
+<li>Insert entity Space: Control + Shift + Space</li>
+<li>Insert Scriptogr.am Header（<code>插入Scriptogr.am文件头信息</code>）: Control + Shift + G</li>
+<li>Shift Line Left（<code>选中行右移</code>）: Select lines, Cmd + [</li>
+<li>Shift Line Right（<code>选中行左移</code>）: Select lines, Cmd + ]</li>
+<li>New Line（<code>插入新行</code>）: Cmd + Return</li>
+<li>Comment（<code>插入注释</code>）: Cmd + /</li>
+<li>Hard Linebreak（<code>插入换行符</code>）: Control + Return</li>
+</ul>
+<p>]]></summary>
+    
+      <category term="Mou" scheme="http://zhaijd.github.io/tags/Mou/"/>
+    
+      <category term="Markdown" scheme="http://zhaijd.github.io/tags/Markdown/"/>
+    
+      <category term="技术杂项" scheme="http://zhaijd.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E9%A1%B9/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,36 @@
+date: 2014-02-20 22:31:54.888
+argv: node /usr/local/bin/hexo server --debug
+os: Darwin 13.0.0 darwin x64
+version:
+  hexo: 2.4.5
+  http_parser: 1.0
+  node: 0.10.24
+  v8: 3.14.5.9
+  ares: 1.9.0-DEV
+  uv: 0.10.21
+  zlib: 1.2.3
+  modules: 11
+  openssl: 1.0.1e
+---
+
+[debug] 22:31:55.183 Configuration file load successfully
+[debug] 22:31:55.191 Version info checked successfully
+[debug] 22:31:55.227 Loading database.
+[debug] 22:31:55.288 Plugin loaded successfully: hexo-generator-feed
+[debug] 22:31:55.289 Plugin loaded successfully: hexo-local-image
+[debug] 22:31:55.292 Script load successfully: hexo-common_plugin.js
+[debug] 22:31:55.322 Theme layout loaded
+[debug] 22:31:55.328 Theme configuration loaded
+[debug] 22:31:55.343 Theme source loaded
+[debug] 22:31:55.350 Theme language files loaded
+[debug] 22:31:55.352 Processed: images/20140220/niaochao.jpg
+[debug] 22:31:55.525 Processed: about/index.md
+[debug] 22:31:55.530 Processed: develop/mou.md
+[debug] 22:31:55.531 Processed: _posts/first.md
+[debug] 22:31:55.532 Processed: _posts/mou.md
+[debug] 22:31:55.533 Processed: _posts/niaochao.md
+[debug] 22:31:55.538 Cache saved
+[info] 22:31:55.642 Hexo is running at localhost:4000/. Press Ctrl+C to stop.
+[debug] 22:32:06.203 Render index: 
+[debug] 22:32:11.273 Render post: 2014/02/20/first/
+[debug] 22:32:53.019 Render index: 
